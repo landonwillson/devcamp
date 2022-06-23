@@ -1,0 +1,44 @@
+.nav-wrapper {height: 190px;background-color:pink;
+    color:whitesmoke;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 100px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+             }
+body {margin:0%;font-family: 'Roboto', sans-serif;}
+.nav-wrapper > .left-column {display: flex;align-items: center;}
+.nav-wrapper > .left-column > .phone-icon {margin-right: 15px;}
+.nav-wrapper > .left-column > .phone-icon i {font-size: 2em;}
+.nav-wrapper > .left-column > .hoursandphone {display:grid;grid-template-columns: 1fr;grid-gap:10px;}
+.nav-wrapper > .left-column > .hoursandphone > .hours {font-family: 'Ubuntu Condensed', sans-serif;color: darkgrey;font-size: 0.8em;}
+.nav-wrapper > .center-column > .banner img {width: 216px ;height: 100%;}
+.nav-wrapper > .center-column > .banner {display: flex;justify-content: center;}
+.nav-wrapper > .center-column > .center-links {display: grid;grid-template-columns: 1fr;grid-gap: 42px;width: 500px;}
+.nav-wrapper > .center-column > .center-links {display: flex; justify-content: space-between;align-items: center;}
+.home a {font-family: 'Ubuntu Condensed', sans-serif;
+     color: whitesmoke;
+     text-decoration:none;
+     transition: 0.5s;width: 70px;text-align: center;}
+.about a {font-family: 'Ubuntu Condensed', sans-serif;color: whitesmoke;text-decoration:none;transition: 0.5s;width: 70px;
+    text-align: center;}
+.contact a {font-family: 'Ubuntu Condensed', sans-serif; color: whitesmoke;text-decoration:none;transition: 0.5s;width: 70px;
+    text-align: center;}
+.menu a {font-family: 'Ubuntu Condensed', sans-serif; color: whitesmoke;text-decoration:none;transition: 0.5s;width: 70px;
+    text-align: center;}
+    .home a:hover {color: goldenrod;letter-spacing: 1.5px;}
+    .about a:hover {color: goldenrod;letter-spacing: 1.5px;}
+    .contact a:hover {color: goldenrod;letter-spacing: 1.5px;}
+    .menu a:hover {color: goldenrod;letter-spacing: 1.5px;}
+.nav-wrapper > .center-column > .center-links > .home:hover {color: rgb(191, 148, 39);letter-spacing: 2px;}
+.nav-wrapper > .center-column > .center-links > .about:hover {color: rgb(191, 148, 39);letter-spacing: 2px;}
+.nav-wrapper > .center-column > .center-links > .contact:hover {color: rgb(191, 148, 39);letter-spacing: 2px;}
+.nav-wrapper > .center-column > .center-links > .menu:hover {color: rgb(191, 148, 39);letter-spacing: 2px;}
+.nav-wrapper > .right-column {display: flex;align-items: center;}
+.nav-wrapper > .right-column {text-align: right;}
+.nav-wrapper > .right-column > .map-icon {margin-left: 15px;}
+.nav-wrapper > .right-column > .map-icon a:hover {color: goldenrod;}
+.nav-wrapper > .right-column > .map-icon a {color: whitesmoke;transition: 0.5s;}
+.nav-wrapper > .right-column > .map-icon i {font-size: 2em;}
+.nav-wrapper > .right-column > .adress a { font-family: 'Ubuntu Condensed', sans-serif;color:whitesmoke;text-decoration: none;
+    font-size: 0.9em;transition: 0.5s;}
+.nav-wrapper > .right-column > .adress a:hover {color: goldenrod;}
